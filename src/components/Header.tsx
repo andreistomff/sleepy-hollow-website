@@ -27,7 +27,7 @@ const Header = () => {
       <div className="container-custom flex items-center justify-between">
         <a href="/" className="flex items-center">
           <h1 className="text-xl md:text-2xl font-serif font-bold text-primary">
-            Sleepy Hollow
+            GreenPanorama
             <span className="block text-sm text-muted-foreground font-sans">
               Pensiune
             </span>
@@ -106,7 +106,7 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-2 py-2">
               <Mail className="w-4 h-4" />
-              <a href="mailto:info@sleepyhollow.ro" className="text-foreground">info@sleepyhollow.ro</a>
+              <a href="mailto:info@greenpanorama.ro" className="text-foreground">info@greenpanorama.ro</a>
             </div>
             <Button className="btn-primary w-full">Rezervă Acum</Button>
           </div>

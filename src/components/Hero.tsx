@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img 
           src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb" 
-          alt="Pensiunea Sleepy Hollow" 
+          alt="Pensiunea GreenPanorama" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/40"></div>
@@ -15,7 +15,7 @@ const Hero = () => {
       
       <div className="container-custom relative z-10 text-white text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-          Bine ați venit la Sleepy Hollow
+          Bine ați venit la GreenPanorama
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Experimentați liniștea și confortul în refugiul nostru fermecător de la țară

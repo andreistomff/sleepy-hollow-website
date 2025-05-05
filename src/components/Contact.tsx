@@ -83,14 +83,14 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">info@sleepyhollow.ro</p>
+                    <p className="text-muted-foreground">info@greenpanorama.ro</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Adresă</p>
-                    <p className="text-muted-foreground">123 Strada Pădurii, Sleepy Hollow, Brașov 123456</p>
+                    <p className="text-muted-foreground">123 Strada Pădurii, GreenPanorama, Brașov 123456</p>
                   </div>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold mb-4 font-serif">Indicații</h3>
               <p className="text-muted-foreground mb-4">
                 Situat la doar 45 de minute de cel mai apropiat aeroport internațional.
-                Urmați indicatoarele spre Sleepy Hollow, faceți stânga la stejarul bătrân de pe Strada Pădurii.
+                Urmați indicatoarele spre GreenPanorama, faceți stânga la stejarul bătrân de pe Strada Pădurii.
               </p>
               <Button variant="outline" className="w-full">
                 Obține Indicații

@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4 font-serif">Sleepy Hollow</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">GreenPanorama</h3>
             <p className="mb-4">
               O pensiune fermecătoare care oferă confort, relaxare și experiențe de neuitat.
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span>info@sleepyhollow.ro</span>
+                <span>info@greenpanorama.ro</span>
               </div>
               <div className="flex items-start">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0" />
@@ -62,14 +62,14 @@ const Footer = () => {
               </div>
               <address className="not-italic">
                 123 Strada Pădurii,<br />
-                Sleepy Hollow, Brașov 123456
+                GreenPanorama, Brașov 123456
               </address>
             </div>
           </div>
         </div>
         
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
-          <p>&copy; {currentYear} Pensiunea Sleepy Hollow. Toate drepturile rezervate.</p>
+          <p>&copy; {currentYear} Pensiunea GreenPanorama. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>
