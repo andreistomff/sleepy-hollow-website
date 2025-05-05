@@ -73,7 +73,7 @@ const Rooms = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {rooms.map((room) => (
-            <Card key={room.id} className="overflow-hidden hover:shadow-lg transition-all">
+            <Card key={room.id} className="overflow-hidden hover:shadow-lg transition-all flex flex-col">
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
                   src={room.image} 
@@ -81,7 +81,7 @@ const Rooms = () => {
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <CardContent className="pt-6">
+              <CardContent className="pt-6 flex-grow flex flex-col">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-semibold">{room.name}</h3>
                   <div className="flex items-center text-primary font-semibold">
@@ -102,7 +102,7 @@ const Rooms = () => {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="flex gap-2">
+              <CardFooter className="mt-auto">
                 <Button variant="outline" className="w-full">
                   <Calendar className="w-4 h-4 mr-2" />
                   Vezi Detalii
