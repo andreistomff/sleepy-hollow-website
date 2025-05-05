@@ -1,5 +1,5 @@
 
-import { BedDouble, Calendar, DollarSign } from "lucide-react";
+import { BedDouble, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 
@@ -103,13 +103,9 @@ const Rooms = () => {
                 </div>
               </CardContent>
               <CardFooter className="flex gap-2">
-                <Button variant="outline" className="flex-1">
+                <Button variant="outline" className="w-full">
                   <Calendar className="w-4 h-4 mr-2" />
                   Vezi Detalii
-                </Button>
-                <Button className="flex-1 bg-primary">
-                  <BedDouble className="w-4 h-4 mr-2" />
-                  Rezervă Camera
                 </Button>
               </CardFooter>
             </Card>
