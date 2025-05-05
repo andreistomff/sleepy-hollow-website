@@ -25,9 +25,8 @@ const Hero = () => {
             Explorează Camerele
           </Button>
           <Button 
-            size="lg" 
-            variant="outline" 
-            className="border-white text-white hover:bg-white/20 font-medium"
+            size="lg"
+            className="bg-white text-primary hover:bg-white/90"
           >
             Vezi Galeria
           </Button>
