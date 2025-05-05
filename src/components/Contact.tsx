@@ -1,10 +1,16 @@
 
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Navigation } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 
 const Contact = () => {
+  const handleNavigateWithWaze = () => {
+    // Coordinates for GreenPanorama (example coordinates)
+    const latitude = 45.6427;
+    const longitude = 25.5887;
+    const wazeUrl = `https://www.waze.com/ul?ll=${latitude}%2C${longitude}&navigate=yes`;
+    window.open(wazeUrl, '_blank');
+  };
+
   return (
     <section id="contact" className="section">
       <div className="container-custom">
@@ -14,58 +20,19 @@ const Contact = () => {
         </p>
         
         <div className="grid md:grid-cols-2 gap-12 mt-12">
-          <div>
-            <form className="space-y-6">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-1">
-                    Nume
-                  </label>
-                  <Input 
-                    id="name" 
-                    placeholder="Numele dvs." 
-                    className="w-full"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-1">
-                    Email
-                  </label>
-                  <Input 
-                    id="email" 
-                    type="email" 
-                    placeholder="email@exemplu.ro" 
-                    className="w-full"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium mb-1">
-                  Subiect
-                </label>
-                <Input 
-                  id="subject" 
-                  placeholder="Cum vă putem ajuta?" 
-                  className="w-full"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-1">
-                  Mesaj
-                </label>
-                <Textarea 
-                  id="message" 
-                  placeholder="Mesajul dvs. aici..." 
-                  className="w-full min-h-[150px]"
-                />
-              </div>
-              
-              <Button type="submit" className="w-full">
-                Trimite Mesaj
+          <div className="space-y-8">
+            <div className="p-8 bg-primary/5 rounded-lg border border-primary/10">
+              <h3 className="text-xl font-semibold mb-6 font-serif">Navigați direct la noi</h3>
+              <p className="mb-6 text-muted-foreground">
+                Folosiți Waze pentru a primi indicații de navigare exacte către Pensiunea GreenPanorama.
+              </p>
+              <Button 
+                onClick={handleNavigateWithWaze}
+                className="w-full flex items-center justify-center gap-2"
+              >
+                <Navigation className="w-5 h-5" /> Navigare cu Waze
               </Button>
-            </form>
+            </div>
           </div>
           
           <div className="space-y-8">
@@ -115,17 +82,6 @@ const Contact = () => {
               <p className="mt-4 text-muted-foreground">
                 Check-in târziu disponibil cu aranjament prealabil.
               </p>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-semibold mb-4 font-serif">Indicații</h3>
-              <p className="text-muted-foreground mb-4">
-                Situat la doar 45 de minute de cel mai apropiat aeroport internațional.
-                Urmați indicatoarele spre GreenPanorama, faceți stânga la stejarul bătrân de pe Strada Pădurii.
-              </p>
-              <Button variant="outline" className="w-full">
-                Obține Indicații
-              </Button>
             </div>
           </div>
         </div>
