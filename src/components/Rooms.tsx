@@ -28,6 +28,38 @@ const Rooms = () => {
       price: 170,
       image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
       amenities: ["Pat Queen Size", "Baie Privată", "Elemente Istorice", "Spațiu de Lucru"]
+    },
+    {
+      id: 4,
+      name: "Suita Căsuță",
+      description: "O suită independentă perfectă pentru familii, cu două dormitoare, bucătărie complet echipată și terasă privată.",
+      price: 250,
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      amenities: ["Două Dormitoare", "Bucătărie", "Terasă Privată", "Facilități pentru Familie"]
+    },
+    {
+      id: 5,
+      name: "Camera Panoramă",
+      description: "Situată la ultimul etaj, această cameră oferă vederi panoramice spectaculoase ale dealurilor înconjurătoare.",
+      price: 190,
+      image: "https://images.unsplash.com/photo-1491183672482-d0af0e44929d",
+      amenities: ["Pat Queen Size", "Vedere Panoramică", "Zonă de Lucru", "Mini Bar"]
+    },
+    {
+      id: 6,
+      name: "Apartamentul Rustic",
+      description: "Un apartament cu două camere decorat în stil tradițional românesc, perfect pentru cei ce doresc mai mult spațiu.",
+      price: 230,
+      image: "https://images.unsplash.com/photo-1467987506553-8f3916508521",
+      amenities: ["Living Separat", "Dormitor Privat", "Baie Spațioasă", "Mobilier Tradițional"]
+    },
+    {
+      id: 7,
+      name: "Camera Romantică",
+      description: "Camera noastră cea mai intimă, perfectă pentru cupluri, cu un pat king size și o cadă cu hidromasaj în cameră.",
+      price: 205,
+      image: "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
+      amenities: ["Pat King Size", "Cadă cu Hidromasaj", "Șemineu", "Intrare Privată"]
     }
   ];
 
@@ -82,12 +114,6 @@ const Rooms = () => {
               </CardFooter>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/5">
-            Vezi Toate Camerele
-          </Button>
         </div>
       </div>
     </section>

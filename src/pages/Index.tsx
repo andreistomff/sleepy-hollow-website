@@ -33,12 +33,6 @@ const Index = () => {
                 </div>
               ))}
             </div>
-            
-            <div className="text-center mt-8">
-              <a href="#" className="text-primary font-medium hover:underline">
-                Vezi Galeria Completă
-              </a>
-            </div>
           </div>
         </section>
         
@@ -55,8 +49,7 @@ const Index = () => {
                   <tr className="bg-primary text-primary-foreground">
                     <th className="p-4 text-left">Tip Cameră</th>
                     <th className="p-4 text-left">Ocupare</th>
-                    <th className="p-4 text-left">Tarif în timpul săptămânii</th>
-                    <th className="p-4 text-left">Tarif weekend</th>
+                    <th className="p-4 text-left">Tarif</th>
                     <th className="p-4 text-left">Tarif săptămânal</th>
                   </tr>
                 </thead>
@@ -65,29 +58,43 @@ const Index = () => {
                     <td className="p-4">Suita Grădină</td>
                     <td className="p-4">2 Adulți</td>
                     <td className="p-4">185€/noapte</td>
-                    <td className="p-4">215€/noapte</td>
                     <td className="p-4">1.155€/săptămână</td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">Camera Salcie</td>
                     <td className="p-4">2 Adulți</td>
                     <td className="p-4">155€/noapte</td>
-                    <td className="p-4">185€/noapte</td>
                     <td className="p-4">945€/săptămână</td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">Mansarda Istorică</td>
                     <td className="p-4">2 Adulți</td>
                     <td className="p-4">170€/noapte</td>
-                    <td className="p-4">200€/noapte</td>
                     <td className="p-4">1.050€/săptămână</td>
                   </tr>
                   <tr className="border-b hover:bg-accent/50 transition-colors">
                     <td className="p-4">Suita Căsuță</td>
                     <td className="p-4">4 Adulți</td>
                     <td className="p-4">250€/noapte</td>
-                    <td className="p-4">295€/noapte</td>
                     <td className="p-4">1.575€/săptămână</td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">Camera Panoramă</td>
+                    <td className="p-4">2 Adulți</td>
+                    <td className="p-4">190€/noapte</td>
+                    <td className="p-4">1.190€/săptămână</td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">Apartamentul Rustic</td>
+                    <td className="p-4">3 Adulți</td>
+                    <td className="p-4">230€/noapte</td>
+                    <td className="p-4">1.450€/săptămână</td>
+                  </tr>
+                  <tr className="border-b hover:bg-accent/50 transition-colors">
+                    <td className="p-4">Camera Romantică</td>
+                    <td className="p-4">2 Adulți</td>
+                    <td className="p-4">205€/noapte</td>
+                    <td className="p-4">1.280€/săptămână</td>
                   </tr>
                 </tbody>
               </table>
