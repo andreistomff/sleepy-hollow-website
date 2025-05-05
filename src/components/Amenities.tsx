@@ -3,18 +3,18 @@ import { CheckCircle } from "lucide-react";
 
 const Amenities = () => {
   const amenities = [
-    { category: "Comfort", items: ["Free WiFi", "Air Conditioning", "Heating", "Daily Housekeeping", "Premium Linens"] },
-    { category: "Food & Drink", items: ["Homemade Breakfast", "Tea/Coffee Facilities", "Dietary Options Available", "Honor Bar", "Outdoor Dining Area"] },
-    { category: "Outdoor", items: ["Garden", "Terrace", "Firepit", "BBQ Facilities", "Parking"] },
-    { category: "Activities", items: ["Board Games", "Library", "Guided Nature Walks", "Bicycle Rental", "Local Tours"] }
+    { category: "Confort", items: ["WiFi Gratuit", "Aer Condiționat", "Încălzire", "Curățenie Zilnică", "Lenjerie Premium"] },
+    { category: "Mâncare & Băutură", items: ["Mic Dejun Făcut în Casă", "Facilități pentru Ceai/Cafea", "Opțiuni Dietetice Disponibile", "Bar cu Autoservire", "Zonă de Luat Masa în Aer Liber"] },
+    { category: "Exterior", items: ["Grădină", "Terasă", "Foc de Tabără", "Facilități pentru Grătar", "Parcare"] },
+    { category: "Activități", items: ["Jocuri de Societate", "Bibliotecă", "Plimbări Ghidate în Natură", "Închiriere Biciclete", "Tururi Locale"] }
   ];
 
   return (
     <section className="section bg-accent/50">
       <div className="container-custom">
-        <h2 className="section-title">Amenities & Services</h2>
+        <h2 className="section-title">Facilități & Servicii</h2>
         <p className="section-subtitle">
-          Everything you need for a comfortable and memorable stay
+          Tot ce aveți nevoie pentru o ședere confortabilă și memorabilă
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">

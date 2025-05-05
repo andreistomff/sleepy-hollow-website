@@ -6,21 +6,21 @@ const About = () => {
   return (
     <section id="about" className="section bg-secondary/50">
       <div className="container-custom">
-        <h2 className="section-title">About Sleepy Hollow</h2>
+        <h2 className="section-title">Despre Sleepy Hollow</h2>
         <p className="section-subtitle">
-          A charming countryside retreat nestled in the heart of nature
+          Un refugiu fermecător la țară, ascuns în inima naturii
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
           <div className="space-y-4">
             <p className="text-lg">
-              Sleepy Hollow Bed & Breakfast offers a peaceful escape from the bustle of everyday life. Situated on 5 acres of beautiful woodland, our historic property dates back to 1875 and has been lovingly restored to create a comfortable and inviting atmosphere.
+              Pensiunea Sleepy Hollow oferă o evadare liniștită din agitația vieții de zi cu zi. Situată pe 5 acri de pădure frumoasă, proprietatea noastră istorică datează din 1875 și a fost restaurată cu dragoste pentru a crea o atmosferă confortabilă și primitoare.
             </p>
             <p className="text-lg">
-              Our location is perfect for those seeking tranquility, with scenic walking trails, nearby fishing spots, and beautiful gardens to explore. Yet, we're conveniently located just 15 minutes from downtown with easy access to local attractions.
+              Locația noastră este perfectă pentru cei care caută liniște, cu trasee pitorești de plimbare, locuri de pescuit în apropiere și grădini frumoase de explorat. Cu toate acestea, suntem convenabil situați la doar 15 minute de centrul orașului, cu acces ușor la atracțiile locale.
             </p>
             <p className="text-lg">
-              At Sleepy Hollow, we pride ourselves on our warm hospitality, attention to detail, and our sumptuous homemade breakfasts featuring locally-sourced ingredients.
+              La Sleepy Hollow, ne mândrim cu ospitalitatea noastră caldă, atenția la detalii și micul nostru dejun delicios preparat în casă, cu ingrediente de proveniență locală.
             </p>
           </div>
           
@@ -29,9 +29,9 @@ const About = () => {
               <CardContent className="flex items-start p-6">
                 <Calendar className="w-12 h-12 text-primary mr-4" />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Open Year-Round</h3>
+                  <h3 className="text-lg font-semibold mb-2">Deschis tot anul</h3>
                   <p className="text-muted-foreground">
-                    Experience the beauty of all seasons with us. Each season offers a unique charm and experience at Sleepy Hollow.
+                    Experimentați frumusețea tuturor anotimpurilor alături de noi. Fiecare anotimp oferă un farmec și o experiență unică la Sleepy Hollow.
                   </p>
                 </div>
               </CardContent>
@@ -41,9 +41,9 @@ const About = () => {
               <CardContent className="flex items-start p-6">
                 <Bed className="w-12 h-12 text-primary mr-4" />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Comfortable Accommodations</h3>
+                  <h3 className="text-lg font-semibold mb-2">Cazare confortabilă</h3>
                   <p className="text-muted-foreground">
-                    Each room is uniquely decorated with antique furnishings, comfortable beds, and modern amenities.
+                    Fiecare cameră este decorată în mod unic cu mobilier antic, paturi confortabile și facilități moderne.
                   </p>
                 </div>
               </CardContent>
@@ -53,9 +53,9 @@ const About = () => {
               <CardContent className="flex items-start p-6">
                 <Phone className="w-12 h-12 text-primary mr-4" />
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Personal Service</h3>
+                  <h3 className="text-lg font-semibold mb-2">Servicii personalizate</h3>
                   <p className="text-muted-foreground">
-                    We're always available to help with recommendations for local dining, attractions, and activities to make your stay memorable.
+                    Suntem mereu disponibili pentru a vă ajuta cu recomandări pentru restaurante locale, atracții și activități pentru a face șederea dvs. memorabilă.
                   </p>
                 </div>
               </CardContent>

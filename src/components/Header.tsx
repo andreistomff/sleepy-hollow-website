@@ -29,17 +29,17 @@ const Header = () => {
           <h1 className="text-xl md:text-2xl font-serif font-bold text-primary">
             Sleepy Hollow
             <span className="block text-sm text-muted-foreground font-sans">
-              Bed & Breakfast
+              Pensiune
             </span>
           </h1>
         </a>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
-          <a href="#rooms" className="text-foreground hover:text-primary transition-colors">Rooms</a>
-          <a href="#gallery" className="text-foreground hover:text-primary transition-colors">Gallery</a>
-          <a href="#prices" className="text-foreground hover:text-primary transition-colors">Prices</a>
+          <a href="#about" className="text-foreground hover:text-primary transition-colors">Despre</a>
+          <a href="#rooms" className="text-foreground hover:text-primary transition-colors">Camere</a>
+          <a href="#gallery" className="text-foreground hover:text-primary transition-colors">Galerie</a>
+          <a href="#prices" className="text-foreground hover:text-primary transition-colors">Prețuri</a>
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
 
@@ -48,14 +48,14 @@ const Header = () => {
             <Phone className="w-4 h-4 mr-2" />
             <span>(123) 456-7890</span>
           </a>
-          <Button className="btn-primary">Book Now</Button>
+          <Button className="btn-primary">Rezervă Acum</Button>
         </div>
 
         {/* Mobile Menu Button */}
         <button 
           className="md:hidden text-foreground p-2" 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle menu"
+          aria-label="Comută meniul"
         >
           <Menu className="w-6 h-6" />
         </button>
@@ -70,28 +70,28 @@ const Header = () => {
               className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About
+              Despre
             </a>
             <a 
               href="#rooms" 
               className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Rooms
+              Camere
             </a>
             <a 
               href="#gallery" 
               className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Gallery
+              Galerie
             </a>
             <a 
               href="#prices" 
               className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Prices
+              Prețuri
             </a>
             <a 
               href="#contact" 
@@ -106,9 +106,9 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-2 py-2">
               <Mail className="w-4 h-4" />
-              <a href="mailto:info@sleepyhollow.com" className="text-foreground">info@sleepyhollow.com</a>
+              <a href="mailto:info@sleepyhollow.ro" className="text-foreground">info@sleepyhollow.ro</a>
             </div>
-            <Button className="btn-primary w-full">Book Now</Button>
+            <Button className="btn-primary w-full">Rezervă Acum</Button>
           </div>
         </nav>
       )}

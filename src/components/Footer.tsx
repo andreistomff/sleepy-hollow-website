@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 font-serif">Sleepy Hollow</h3>
             <p className="mb-4">
-              A charming bed & breakfast providing comfort, relaxation, and unforgettable experiences.
+              O pensiune fermecătoare care oferă confort, relaxare și experiențe de neuitat.
             </p>
             <div className="flex items-center space-x-4">
               <a href="#" className="hover:text-white/80">
@@ -27,25 +27,25 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-4 font-serif">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">Link-uri Rapide</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white/80 transition-colors">Home</a></li>
-              <li><a href="#about" className="hover:text-white/80 transition-colors">About Us</a></li>
-              <li><a href="#rooms" className="hover:text-white/80 transition-colors">Our Rooms</a></li>
-              <li><a href="#gallery" className="hover:text-white/80 transition-colors">Gallery</a></li>
-              <li><a href="#prices" className="hover:text-white/80 transition-colors">Prices & Availability</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Acasă</a></li>
+              <li><a href="#about" className="hover:text-white/80 transition-colors">Despre Noi</a></li>
+              <li><a href="#rooms" className="hover:text-white/80 transition-colors">Camerele Noastre</a></li>
+              <li><a href="#gallery" className="hover:text-white/80 transition-colors">Galerie</a></li>
+              <li><a href="#prices" className="hover:text-white/80 transition-colors">Prețuri & Disponibilitate</a></li>
               <li><a href="#contact" className="hover:text-white/80 transition-colors">Contact</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-4 font-serif">Policies</h3>
+            <h3 className="text-xl font-semibold mb-4 font-serif">Politici</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white/80 transition-colors">Booking Terms</a></li>
-              <li><a href="#" className="hover:text-white/80 transition-colors">Cancellation Policy</a></li>
-              <li><a href="#" className="hover:text-white/80 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white/80 transition-colors">Pet Policy</a></li>
-              <li><a href="#" className="hover:text-white/80 transition-colors">FAQs</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Termeni de Rezervare</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Politica de Anulare</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Politica de Confidențialitate</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Politica pentru Animale</a></li>
+              <li><a href="#" className="hover:text-white/80 transition-colors">Întrebări Frecvente</a></li>
             </ul>
           </div>
           
@@ -54,22 +54,22 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span>info@sleepyhollow.com</span>
+                <span>info@sleepyhollow.ro</span>
               </div>
               <div className="flex items-start">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0" />
                 <span>(123) 456-7890</span>
               </div>
               <address className="not-italic">
-                123 Woodland Lane,<br />
-                Sleepy Hollow, NY 10591
+                123 Strada Pădurii,<br />
+                Sleepy Hollow, Brașov 123456
               </address>
             </div>
           </div>
         </div>
         
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
-          <p>&copy; {currentYear} Sleepy Hollow Bed & Breakfast. All rights reserved.</p>
+          <p>&copy; {currentYear} Pensiunea Sleepy Hollow. Toate drepturile rezervate.</p>
         </div>
       </div>
     </footer>

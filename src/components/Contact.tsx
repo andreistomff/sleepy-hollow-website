@@ -8,9 +8,9 @@ const Contact = () => {
   return (
     <section id="contact" className="section">
       <div className="container-custom">
-        <h2 className="section-title">Contact Us</h2>
+        <h2 className="section-title">Contactați-ne</h2>
         <p className="section-subtitle">
-          We'd love to hear from you. Reach out with any questions about your stay.
+          Ne-ar plăcea să avem vești de la dumneavoastră. Contactați-ne cu orice întrebări despre șederea dvs.
         </p>
         
         <div className="grid md:grid-cols-2 gap-12 mt-12">
@@ -19,11 +19,11 @@ const Contact = () => {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-1">
-                    Name
+                    Nume
                   </label>
                   <Input 
                     id="name" 
-                    placeholder="Your name" 
+                    placeholder="Numele dvs." 
                     className="w-full"
                   />
                 </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                   <Input 
                     id="email" 
                     type="email" 
-                    placeholder="your@email.com" 
+                    placeholder="email@exemplu.ro" 
                     className="w-full"
                   />
                 </div>
@@ -42,40 +42,40 @@ const Contact = () => {
               
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium mb-1">
-                  Subject
+                  Subiect
                 </label>
                 <Input 
                   id="subject" 
-                  placeholder="How can we help you?" 
+                  placeholder="Cum vă putem ajuta?" 
                   className="w-full"
                 />
               </div>
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-1">
-                  Message
+                  Mesaj
                 </label>
                 <Textarea 
                   id="message" 
-                  placeholder="Your message here..." 
+                  placeholder="Mesajul dvs. aici..." 
                   className="w-full min-h-[150px]"
                 />
               </div>
               
               <Button type="submit" className="w-full">
-                Send Message
+                Trimite Mesaj
               </Button>
             </form>
           </div>
           
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4 font-serif">Contact Information</h3>
+              <h3 className="text-xl font-semibold mb-4 font-serif">Informații de Contact</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <Phone className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
-                    <p className="font-medium">Phone</p>
+                    <p className="font-medium">Telefon</p>
                     <p className="text-muted-foreground">(123) 456-7890</p>
                   </div>
                 </div>
@@ -83,48 +83,48 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">info@sleepyhollow.com</p>
+                    <p className="text-muted-foreground">info@sleepyhollow.ro</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
-                    <p className="font-medium">Address</p>
-                    <p className="text-muted-foreground">123 Woodland Lane, Sleepy Hollow, NY 10591</p>
+                    <p className="font-medium">Adresă</p>
+                    <p className="text-muted-foreground">123 Strada Pădurii, Sleepy Hollow, Brașov 123456</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-4 font-serif">Hours</h3>
+              <h3 className="text-xl font-semibold mb-4 font-serif">Program</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className="font-medium">Check-in:</span>
-                  <span>3:00 PM - 8:00 PM</span>
+                  <span>15:00 - 20:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Check-out:</span>
-                  <span>11:00 AM</span>
+                  <span>11:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-medium">Office Hours:</span>
-                  <span>8:00 AM - 8:00 PM</span>
+                  <span className="font-medium">Program Recepție:</span>
+                  <span>8:00 - 20:00</span>
                 </div>
               </div>
               <p className="mt-4 text-muted-foreground">
-                Late check-in available with prior arrangement.
+                Check-in târziu disponibil cu aranjament prealabil.
               </p>
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-4 font-serif">Directions</h3>
+              <h3 className="text-xl font-semibold mb-4 font-serif">Indicații</h3>
               <p className="text-muted-foreground mb-4">
-                Located just 45 minutes from the nearest international airport. 
-                Follow signs to Sleepy Hollow, turn left at the old oak tree on Woodland Lane.
+                Situat la doar 45 de minute de cel mai apropiat aeroport internațional.
+                Urmați indicatoarele spre Sleepy Hollow, faceți stânga la stejarul bătrân de pe Strada Pădurii.
               </p>
               <Button variant="outline" className="w-full">
-                Get Directions
+                Obține Indicații
               </Button>
             </div>
           </div>
