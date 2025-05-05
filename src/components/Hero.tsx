@@ -18,7 +18,7 @@ const Hero = () => {
           Bine ați venit la GreenPanorama
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Experimentați liniștea și confortul în refugiul nostru fermecător de la țară
+          Descoperă un loc unde te simți acasă, departe de casă.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="bg-white text-primary hover:bg-white/90">
