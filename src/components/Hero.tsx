@@ -14,13 +14,13 @@ const Hero = () => {
       </div>
       
       <div className="container-custom relative z-10 text-white text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate-fade-up opacity-0" style={{animationDelay: '0.2s'}}>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Welcome to Sleepy Hollow
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-up opacity-0" style={{animationDelay: '0.4s'}}>
+        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Experience tranquility and comfort in our charming countryside retreat
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up opacity-0" style={{animationDelay: '0.6s'}}>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="bg-white text-primary hover:bg-white/90">
             Explore Rooms
           </Button>
