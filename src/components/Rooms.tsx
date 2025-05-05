@@ -1,5 +1,5 @@
 
-import { BedDouble, Calendar } from "lucide-react";
+import { BedDouble, Calendar, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 
