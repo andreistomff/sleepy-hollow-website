@@ -1,13 +1,10 @@
-
 import { Phone, Mail, MapPin, Navigation, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const handleNavigateWithWaze = () => {
-    // Coordinates for GreenPanorama (example coordinates)
-    const latitude = 45.6427;
-    const longitude = 25.5887;
-    const wazeUrl = `https://www.waze.com/ul?ll=${latitude}%2C${longitude}&navigate=yes`;
+    // Correct Waze URL for GreenPanorama
+    const wazeUrl = "https://ul.waze.com/ul?place=ChIJAWCksgQVTUcRZKR-Xfnlt2k&ll=45.17243940%2C24.25815300&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location";
     window.open(wazeUrl, '_blank');
   };
 
