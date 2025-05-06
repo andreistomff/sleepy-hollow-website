@@ -19,6 +19,13 @@ const Header = () => {
     };
   }, []);
 
+  const scrollToContact = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    if (mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <header className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
@@ -48,7 +55,7 @@ const Header = () => {
             <Phone className="w-4 h-4 mr-2" />
             <span>(123) 456-7890</span>
           </a>
-          <Button className="btn-primary">Rezervă Acum</Button>
+          <Button className="btn-primary" onClick={scrollToContact}>Rezervă Acum</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -108,7 +115,7 @@ const Header = () => {
               <Mail className="w-4 h-4" />
               <a href="mailto:info@greenpanorama.ro" className="text-foreground">info@greenpanorama.ro</a>
             </div>
-            <Button className="btn-primary w-full">Rezervă Acum</Button>
+            <Button className="btn-primary w-full" onClick={scrollToContact}>Rezervă Acum</Button>
           </div>
         </nav>
       )}

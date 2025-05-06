@@ -21,7 +21,9 @@ const Hero = () => {
           Descoperă un loc unde te simți acasă, departe de casă.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" className="bg-white text-primary hover:bg-white/90">
+          <Button size="lg" className="bg-white text-primary hover:bg-white/90" onClick={() => {
+            document.getElementById('rooms')?.scrollIntoView({ behavior: 'smooth' });
+          }}>
             Explorează Camerele
           </Button>
         </div>
