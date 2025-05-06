@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Navigation } from "lucide-react";
+import { Phone, Mail, MapPin, Navigation, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -32,6 +32,29 @@ const Contact = () => {
               >
                 <Navigation className="w-5 h-5" /> Navigare cu Waze
               </Button>
+            </div>
+            
+            <div className="p-8 bg-primary/5 rounded-lg border border-primary/10">
+              <h3 className="text-xl font-semibold mb-6 font-serif">Rezervări Online</h3>
+              <p className="mb-6 text-muted-foreground">
+                Puteți rezerva camera dorită și prin platformele noastre partenere:
+              </p>
+              <div className="space-y-4">
+                <Button 
+                  onClick={() => window.open('https://www.booking.com/hotel/ro/green-panorama-relax-concept.ro.html', '_blank')}
+                  variant="outline"
+                  className="w-full flex items-center justify-center gap-2"
+                >
+                  <ExternalLink className="w-5 h-5" /> Rezervă pe Booking.com
+                </Button>
+                <Button 
+                  onClick={() => window.open('https://travelminit.ro/green-panorama-relax-concept-baile-olanesti', '_blank')}
+                  variant="outline"
+                  className="w-full flex items-center justify-center gap-2"
+                >
+                  <ExternalLink className="w-5 h-5" /> Rezervă pe Travelminit
+                </Button>
+              </div>
             </div>
           </div>
           
