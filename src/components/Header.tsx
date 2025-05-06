@@ -35,9 +35,6 @@ const Header = () => {
         <a href="/" className="flex items-center">
           <h1 className="text-xl md:text-2xl font-serif font-bold text-primary">
             GreenPanorama
-            <span className="block text-sm text-muted-foreground font-sans">
-              Pensiune
-            </span>
           </h1>
         </a>
 
