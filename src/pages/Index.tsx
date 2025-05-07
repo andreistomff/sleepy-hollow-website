@@ -12,36 +12,43 @@ const Index = () => {
   const roomPrices = [
     {
       name: "Camera dubla",
+      displayName: "Camera dublă",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera deluxe",
+      displayName: "Camera deluxe",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera king deluxe",
+      displayName: "Camera king deluxe",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera dubla cu balcon",
+      displayName: "Camera dublă cu balcon",
       occupancy: "2-3 Adulți",
       price: 422
     },
     {
       name: "Camera dubla cu terasa",
+      displayName: "Camera dublă cu terasă",
       occupancy: "2-4 Adulți",
       price: 442
     },
     {
       name: "Apartament",
+      displayName: "Apartament",
       occupancy: "2-4 Adulți",
       price: 451
     },
     {
       name: "Apartament deluxe",
+      displayName: "Apartament deluxe",
       occupancy: "2-5 Adulți",
       price: 624
     }
@@ -94,7 +101,7 @@ const Index = () => {
                 <tbody>
                   {roomPrices.map((room, index) => (
                     <tr key={index} className="border-b hover:bg-accent/50 transition-colors">
-                      <td className="p-4">{room.name}</td>
+                      <td className="p-4">{room.displayName}</td>
                       <td className="p-4">{room.occupancy}</td>
                       <td className="p-4">{room.price} RON/noapte</td>
                     </tr>
