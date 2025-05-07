@@ -1,4 +1,3 @@
-
 import { BedDouble, Calendar, DollarSign, X, Tag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -26,11 +25,12 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+      // Replace these URLs with your own image URLs
+      image: "/your-image-folder/camera-dubla-main.jpg", // Replace with your image path
       galleryImages: [
-        "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-        "https://images.unsplash.com/photo-1467987506553-8f3916508521"
+        "/your-image-folder/camera-dubla-1.jpg", // Replace with your image paths
+        "/your-image-folder/camera-dubla-2.jpg",
+        "/your-image-folder/camera-dubla-3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
