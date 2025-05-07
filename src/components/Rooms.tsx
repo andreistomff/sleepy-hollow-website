@@ -61,11 +61,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+      image: "https://i.imgur.com/4uB93gV.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1472396961693-142e6e269027",
-        "https://images.unsplash.com/photo-1467987506553-8f3916508521",
-        "https://images.unsplash.com/photo-1499916078039-922301b0eb9b"
+        "https://i.imgur.com/4uB93gV.jpeg",
+        "https://i.imgur.com/AAy67ld.jpeg",
+        "https://i.imgur.com/CgYiynd.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
@@ -80,11 +80,11 @@ const Rooms = () => {
         { persons: 2, price: 422 },
         { persons: 3, price: 480 }
       ],
-      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+      image: "https://i.imgur.com/zURNDhB.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
-        "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
-        "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
+        "https://i.imgur.com/zURNDhB.jpeg",
+        "https://i.imgur.com/r6aJp2U.jpeg",
+        "https://i.imgur.com/m7H9ULO.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
@@ -100,11 +100,11 @@ const Rooms = () => {
         { persons: 3, price: 468 },
         { persons: 4, price: 520 }
       ],
-      image: "https://images.unsplash.com/photo-1491183672482-d0af0e44929d",
+      image: "https://i.imgur.com/lFTVT1x.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1491183672482-d0af0e44929d",
-        "https://images.unsplash.com/photo-1472396961693-142e6e269027",
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        "https://i.imgur.com/lFTVT1x.jpeg",
+        "https://i.imgur.com/Ydf2XmQ.jpeg",
+        "https://i.imgur.com/IUC8EHi.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
@@ -120,11 +120,11 @@ const Rooms = () => {
         { persons: 3, price: 495 },
         { persons: 4, price: 550 }
       ],
-      image: "https://images.unsplash.com/photo-1467987506553-8f3916508521",
+      image: "https://i.imgur.com/X1uSGUb.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1467987506553-8f3916508521",
-        "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
-        "https://images.unsplash.com/photo-1491183672482-d0af0e44929d"
+        "https://i.imgur.com/X1uSGUb.jpeg",
+        "https://i.imgur.com/B6wRxyQ.jpeg",
+        "https://i.imgur.com/P6htDHQ.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Ustensile de bucătărie", "Chicinetă", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Hârtie igienică", "Canapea extensibilă"]
     },
@@ -141,11 +141,11 @@ const Rooms = () => {
         { persons: 4, price: 736 },
         { persons: 5, price: 800 }
       ],
-      image: "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
+      image: "https://i.imgur.com/bS6xftU.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
-        "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
-        "https://images.unsplash.com/photo-1472396961693-142e6e269027"
+        "https://i.imgur.com/bS6xftU.jpeg",
+        "https://i.imgur.com/HPhRUl9.jpeg",
+        "https://i.imgur.com/M7fEGGv.jpeg"
       ],
       amenities: ["Cadă cu hidromasaj", "Toaletă", "Șemineu", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Hârtie igienică", "Canapea extensibilă"]
     }
