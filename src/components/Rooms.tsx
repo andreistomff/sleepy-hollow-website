@@ -25,11 +25,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png",
+      image: "https://i.imgur.com/24h6opw.jpeg",
       galleryImages: [
-        "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png",
-        "/lovable-uploads/71b6afa7-0273-4f0c-9e67-93a0d7fc172d.png",
-        "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png"
+        "https://i.imgur.com/24h6opw.jpeg",
+        "https://i.imgur.com/MfBG16F.jpeg",
+        "https://i.imgur.com/24h6opw.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
@@ -43,11 +43,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
+      image: "https://i.imgur.com/PSG1dt6.jpeg",
       galleryImages: [
-        "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
-        "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
-        "https://images.unsplash.com/photo-1491183672482-d0af0e44929d"
+        "https://i.imgur.com/PSG1dt6.jpeg",
+        "https://i.imgur.com/kmXWsPw.jpeg",
+        "https://i.imgur.com/0qbGlat.jpeg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
