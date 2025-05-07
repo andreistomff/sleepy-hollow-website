@@ -6,6 +6,8 @@ import Rooms from "@/components/Rooms";
 import Amenities from "@/components/Amenities";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { InfoIcon } from "lucide-react";
 
 const Index = () => {
   // Room data that matches the data from Rooms.tsx
@@ -89,7 +91,14 @@ const Index = () => {
               Găsiți cazarea perfectă pentru șederea dumneavoastră
             </p>
             
-            <div className="overflow-x-auto mt-12">
+            <Alert className="my-4 border-amber-500/50 bg-amber-50 dark:bg-amber-950/20">
+              <InfoIcon className="h-4 w-4 text-amber-600" />
+              <AlertDescription className="text-amber-600 dark:text-amber-400">
+                Prețurile se pot modifica în funcție de numărul de persoane.
+              </AlertDescription>
+            </Alert>
+            
+            <div className="overflow-x-auto mt-6">
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="bg-primary text-primary-foreground">
