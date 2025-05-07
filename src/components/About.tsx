@@ -11,7 +11,7 @@ const About = () => {
           Un refugiu fermecător la țară, ascuns în inima naturii
         </p>
         
-        <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
+        <div className="grid md:grid-cols-2 gap-10 items-center mt-12">
           <div className="space-y-4">
             <p className="text-lg">
             Green Panorama îmbină luxul cu natura, oferind un sejur relaxant și servicii de calitate într-un cadru select — ideal pentru familii, cupluri, prieteni, teambuildinguri sau evenimente speciale. Aici te simți cu adevărat „acasă, departe de casă”.
