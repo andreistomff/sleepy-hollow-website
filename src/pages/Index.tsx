@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -7,6 +8,45 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  // Room data that matches the data from Rooms.tsx
+  const roomPrices = [
+    {
+      name: "Camera dubla",
+      occupancy: "2 Adulți",
+      price: 380
+    },
+    {
+      name: "Camera deluxe",
+      occupancy: "2 Adulți",
+      price: 380
+    },
+    {
+      name: "Camera king deluxe",
+      occupancy: "2 Adulți",
+      price: 380
+    },
+    {
+      name: "Camera dubla cu balcon",
+      occupancy: "2-3 Adulți",
+      price: 422
+    },
+    {
+      name: "Camera dubla cu terasa",
+      occupancy: "2-4 Adulți",
+      price: 442
+    },
+    {
+      name: "Apartament",
+      occupancy: "2-4 Adulți",
+      price: 451
+    },
+    {
+      name: "Apartament deluxe",
+      occupancy: "2-5 Adulți",
+      price: 624
+    }
+  ];
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -52,41 +92,13 @@ const Index = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Suita Grădină</td>
-                    <td className="p-4">2 Adulți</td>
-                    <td className="p-4">185€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Camera Salcie</td>
-                    <td className="p-4">2 Adulți</td>
-                    <td className="p-4">155€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Mansarda Istorică</td>
-                    <td className="p-4">2 Adulți</td>
-                    <td className="p-4">170€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Suita Căsuță</td>
-                    <td className="p-4">4 Adulți</td>
-                    <td className="p-4">250€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Camera Panoramă</td>
-                    <td className="p-4">2 Adulți</td>
-                    <td className="p-4">190€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Apartamentul Rustic</td>
-                    <td className="p-4">3 Adulți</td>
-                    <td className="p-4">230€/noapte</td>
-                  </tr>
-                  <tr className="border-b hover:bg-accent/50 transition-colors">
-                    <td className="p-4">Camera Romantică</td>
-                    <td className="p-4">2 Adulți</td>
-                    <td className="p-4">205€/noapte</td>
-                  </tr>
+                  {roomPrices.map((room, index) => (
+                    <tr key={index} className="border-b hover:bg-accent/50 transition-colors">
+                      <td className="p-4">{room.name}</td>
+                      <td className="p-4">{room.occupancy}</td>
+                      <td className="p-4">{room.price} RON/noapte</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
