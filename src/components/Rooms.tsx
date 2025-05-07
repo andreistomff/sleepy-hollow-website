@@ -1,4 +1,3 @@
-
 import { BedDouble, Calendar, DollarSign, X, Tag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -56,7 +55,7 @@ const Rooms = () => {
       id: 3,
       name: "Camera king deluxe",
       description: "Camera 31 m², 1 pat dublu mare",
-      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de gr��dină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
       price: 380,
       priceList: [
         { persons: 1, price: 342 },
@@ -185,8 +184,8 @@ const Rooms = () => {
               <CardContent className="pt-6 flex-grow flex flex-col">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-semibold">{room.name}</h3>
-                  <div className="flex items-center text-primary font-semibold">
-                    <span>{room.price}</span>
+                  <div className="flex items-center text-primary">
+                    <span className="text-lg font-semibold">{room.price}</span>
                     <span className="text-muted-foreground font-normal"> RON/noapte</span>
                   </div>
                 </div>
