@@ -25,11 +25,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://i.imgur.com/24h6opw.jpeg",
+      image: "/images/camera dubla 1.jpg",
       galleryImages: [
-        "https://i.imgur.com/24h6opw.jpeg",
-        "https://i.imgur.com/MfBG16F.jpeg",
-        "https://i.imgur.com/24h6opw.jpeg"
+        "/images/camera dubla 1.jpg",
+        "/images/camera dubla 2.jpg",
+        "/images/camera dubla 1.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
@@ -43,11 +43,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://i.imgur.com/PSG1dt6.jpeg",
+      image: "/images/camera deluxe 1.jpg",
       galleryImages: [
-        "https://i.imgur.com/PSG1dt6.jpeg",
-        "https://i.imgur.com/kmXWsPw.jpeg",
-        "https://i.imgur.com/0qbGlat.jpeg"
+        "/images/camera deluxe 1.jpg",
+        "/images/camera deluxe 2.jpg",
+        "/images/camera deluxe 3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
@@ -61,11 +61,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      image: "https://i.imgur.com/4uB93gV.jpeg",
+      image: "/images/camera king deluxe 1.jpg",
       galleryImages: [
-        "https://i.imgur.com/4uB93gV.jpeg",
-        "https://i.imgur.com/AAy67ld.jpeg",
-        "https://i.imgur.com/CgYiynd.jpeg"
+        "/images/camera king deluxe 1.jpg",
+        "/images/camera king deluxe 2.jpg",
+        "/images/camera king deluxe 3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
@@ -80,11 +80,11 @@ const Rooms = () => {
         { persons: 2, price: 422 },
         { persons: 3, price: 480 }
       ],
-      image: "https://i.imgur.com/zURNDhB.jpeg",
+      image: "/images/camera dubla cu balcon 1.jpg",
       galleryImages: [
-        "https://i.imgur.com/zURNDhB.jpeg",
-        "https://i.imgur.com/r6aJp2U.jpeg",
-        "https://i.imgur.com/m7H9ULO.jpeg"
+        "/images/camera dubla cu balcon 1.jpg",
+        "/images/camera dubla cu balcon 2.jpg",
+        "/images/camera dubla cu balcon 3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
@@ -100,11 +100,11 @@ const Rooms = () => {
         { persons: 3, price: 468 },
         { persons: 4, price: 520 }
       ],
-      image: "https://i.imgur.com/lFTVT1x.jpeg",
+      image: "/images/camera dubla cu terasa.jpg",
       galleryImages: [
-        "https://i.imgur.com/lFTVT1x.jpeg",
-        "https://i.imgur.com/Ydf2XmQ.jpeg",
-        "https://i.imgur.com/IUC8EHi.jpeg"
+        "/images/camera dubla cu terasa.jpg",
+        "/images/camera dubla cu terasa 2.jpg",
+        "/images/camera dubla cu terasa 3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
@@ -120,11 +120,11 @@ const Rooms = () => {
         { persons: 3, price: 495 },
         { persons: 4, price: 550 }
       ],
-      image: "https://i.imgur.com/X1uSGUb.jpeg",
+      image: "/images/apartament 1.jpg",
       galleryImages: [
-        "https://i.imgur.com/X1uSGUb.jpeg",
-        "https://i.imgur.com/B6wRxyQ.jpeg",
-        "https://i.imgur.com/P6htDHQ.jpeg"
+        "/images/apartament 1.jpg",
+        "/images/apartament 2.jpg",
+        "/images/apartament 3.jpg"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Ustensile de bucătărie", "Chicinetă", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Hârtie igienică", "Canapea extensibilă"]
     },
