@@ -17,7 +17,7 @@ const Rooms = () => {
   const rooms = [
     {
       id: 1,
-      name: "Cameră dubla",
+      name: "Camera dubla",
       description: "Cameră de 28 m², cu 1 pat dublu mare, vedere la gradină",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
       price: 380,
@@ -25,12 +25,11 @@ const Rooms = () => {
         { persons: 1, price: 342 },
         { persons: 2, price: 380 }
       ],
-      // Replace these URLs with your own image URLs
-      image: "/your-image-folder/camera-dubla-main.jpg", // Replace with your image path
+      image: "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png",
       galleryImages: [
-        "/your-image-folder/camera-dubla-1.jpg", // Replace with your image paths
-        "/your-image-folder/camera-dubla-2.jpg",
-        "/your-image-folder/camera-dubla-3.jpg"
+        "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png",
+        "/lovable-uploads/71b6afa7-0273-4f0c-9e67-93a0d7fc172d.png",
+        "/lovable-uploads/4f9aec64-56e7-4fbf-8847-f29f01e91a08.png"
       ],
       amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
