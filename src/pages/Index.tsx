@@ -12,31 +12,31 @@ const Index = () => {
   const roomPrices = [
     {
       name: "Camera dubla",
-      displayName: "Camera dublă",
+      displayName: "Cameră dublă",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera deluxe",
-      displayName: "Camera deluxe",
+      displayName: "Cameră deluxe",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera king deluxe",
-      displayName: "Camera king deluxe",
+      displayName: "Cameră king deluxe",
       occupancy: "2 Adulți",
       price: 380
     },
     {
       name: "Camera dubla cu balcon",
-      displayName: "Camera dublă cu balcon",
+      displayName: "Cameră dublă cu balcon",
       occupancy: "2-3 Adulți",
       price: 422
     },
     {
       name: "Camera dubla cu terasa",
-      displayName: "Camera dublă cu terasă",
+      displayName: "Cameră dublă cu terasă",
       occupancy: "2-4 Adulți",
       price: 442
     },
