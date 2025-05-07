@@ -14,7 +14,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
           <div className="space-y-4">
             <p className="text-lg">
-              Pensiunea GreenPanorama oferă o evadare liniștită din agitația vieții de zi cu zi. Situată pe 5 acri de pădure frumoasă, proprietatea noastră istorică datează din 1875 și a fost restaurată cu dragoste pentru a crea o atmosferă confortabilă și primitoare.
+            Combinând simplitatea cu luxul și inovația, un sejur la Green Panorama este o invitație  la descoperire, la distracție, la bucuria de a relaxa mintea și trupul într-un ambient select unde serviciile de calitate  și natura se îmbină pentru a va oferi o experiență unică de vacanță. Este alegerea potrivită pentru o excursie de grup, teambuilding, petrecerea unor evenimente de familie, sau pur și simplu pentru o evadare din cotidian. Familiile, cuplurile, prietenii vor descoperi un loc unde te poți simți „ACASA DEPARTE DE CASĂ”.
             </p>
             <p className="text-lg">
               Locația noastră este perfectă pentru cei care caută liniște, cu trasee pitorești de plimbare, locuri de pescuit în apropiere și grădini frumoase de explorat. Cu toate acestea, suntem convenabil situați la doar 15 minute de centrul orașului, cu acces ușor la atracțiile locale.
@@ -43,7 +43,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Cazare confortabilă</h3>
                   <p className="text-muted-foreground">
-                    Fiecare cameră este decorată în mod unic cu mobilier antic, paturi confortabile și facilități moderne.
+                  Fiecare cameră este personalizată și are stilul, luxul și rafinamentul propriu, fiind dotate cu televizor LCD cu cablu TV, acces internet Wi-Fi gratuit , minibar, coffee maker- selecție de ceaiuri și cafea. Baia este echipată modern cu cabina de duș cu  hidromasaj și obiecte sanitare de calitate, uscător de păr, halate de baie.
                   </p>
                 </div>
               </CardContent>
@@ -55,7 +55,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Servicii personalizate</h3>
                   <p className="text-muted-foreground">
-                    Suntem mereu disponibili pentru a vă ajuta cu recomandări pentru restaurante locale, atracții și activități pentru a face șederea dvs. memorabilă.
+                  Pensiunea noastra poate fi gazda unor evenimente de familie, precum  și a unor evenimente corporate, fie ca este vorba de teambuilding,  sesiuni de lucru, programele de wellbeing  sau orice alta activitate pentru companii, dotarile specifice, experienta și flexibilitatea echipei noastre au ca rezultat final organizarea unui eveniment memorabil.
                   </p>
                 </div>
               </CardContent>
