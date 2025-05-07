@@ -50,7 +50,7 @@ const Header = () => {
         <div className="hidden md:flex items-center space-x-4">
           <a href="tel:+12345678" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
             <Phone className="w-4 h-4 mr-2" />
-            <span>(123) 456-7890</span>
+            <span className="text-base">(123) 456-7890</span>
           </a>
           <Button className="btn-primary" onClick={scrollToContact}>Rezervă Acum</Button>
         </div>
@@ -106,11 +106,11 @@ const Header = () => {
             </a>
             <div className="flex items-center space-x-2 py-2">
               <Phone className="w-4 h-4" />
-              <a href="tel:+12345678" className="text-foreground">(123) 456-7890</a>
+              <a href="tel:+12345678" className="text-base text-foreground">(123) 456-7890</a>
             </div>
             <div className="flex items-center space-x-2 py-2">
               <Mail className="w-4 h-4" />
-              <a href="mailto:info@greenpanorama.ro" className="text-foreground">info@greenpanorama.ro</a>
+              <a href="mailto:info@greenpanorama.ro" className="text-base text-foreground">info@greenpanorama.ro</a>
             </div>
             <Button className="btn-primary w-full" onClick={scrollToContact}>Rezervă Acum</Button>
           </div>
