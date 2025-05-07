@@ -18,101 +18,137 @@ const Rooms = () => {
   const rooms = [
     {
       id: 1,
-      name: "Suita Grădină",
-      description: "Suita noastră spațioasă cu un pat king size, baie privată cu cadă cu picioare și vederi frumoase spre grădină.",
-      fullDescription: "Suita Grădină este una dintre cele mai căutate camere de pe proprietate. Oferind o priveliște spectaculoasă spre grădina proprie, această suită de lux de 45 mp combină eleganța cu confortul rural. Dormitorul principal este dotat cu un pat king size premium cu lenjerie de bumbac egiptean, iar baia spațioasă include o cadă cu picioare și produse de toaletă de lux. Zona de relaxare separată conține o canapea confortabilă, un minibar bine aprovizionat și facilități pentru prepararea ceaiului și cafelei. Perfectă pentru cuplurile care caută un refugiu romantic sau pentru călătorii individuali care apreciază spațiul și intimitatea.",
-      price: 185,
+      name: "Camera dubla",
+      description: "Camera de 28 m2, cu 1 pat dublu mare, vedere la gradina",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
+      price: 380,
+      priceList: [
+        { persons: 1, price: 342 },
+        { persons: 2, price: 380 }
+      ],
       image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
       galleryImages: [
         "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
         "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
         "https://images.unsplash.com/photo-1467987506553-8f3916508521"
       ],
-      amenities: ["Pat King Size", "Baie Privată", "Vedere la Grădină", "Zonă de Relaxare"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
     {
       id: 2,
-      name: "Camera Salcie",
-      description: "O cameră cochetă cu un pat queen size, baie proprie și decor fermecător inspirat de peisajul rural din jur.",
-      fullDescription: "Camera Salcie este un refugiu intim de 30 mp ce emană farmecul rustic al regiunii. Decorată cu elemente tradiționale românești și mobilier din lemn de salcie locală, această cameră oferă o experiență autentică. Camera include un pat queen size confortabil, o baie modernă cu duș italian și produse eco-friendly. Fereastra panoramică oferă o priveliște neîntreruptă asupra naturii înconjurătoare, permițând oaspeților să se conecteze cu peisajul rural. Un birou spațios face din Camera Salcie și o opțiune excelentă pentru călătorii care trebuie să lucreze în timpul sejurului.",
-      price: 155,
+      name: "Camera deluxe",
+      description: "Camera de 30m2, cu 1 pat dublu mare, vedere la gradina",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
+      price: 380,
+      priceList: [
+        { persons: 1, price: 342 },
+        { persons: 2, price: 380 }
+      ],
       image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
       galleryImages: [
         "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
         "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
         "https://images.unsplash.com/photo-1491183672482-d0af0e44929d"
       ],
-      amenities: ["Pat Queen Size", "Baie Proprie", "Vedere Rurală", "Birou"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
     {
       id: 3,
-      name: "Mansarda Istorică",
-      description: "Situată în secțiunea originală a casei, această cameră prezintă grinzi originale din lemn și o fereastră circulară unică.",
-      fullDescription: "Mansarda Istorică este o cameră de 35 mp situată în podul original al casei principale, datând din anii 1920. Această cameră unică prezintă grinzile originale din lemn restaurate și o fereastră circulară caracteristică care oferă o vedere panoramică de 180° asupra dealurilor din jur. Patul queen size este plasat strategic pentru a profita de priveliște, iar baia privată include o cabină de duș spațioasă. Elementele istorice sunt îmbinate armonios cu comodități moderne, inclusiv aer condiționat, Wi-Fi de mare viteză și un spațiu de lucru dedicat. Perfectă pentru oaspeții care apreciază caracterul istoric și detaliile arhitecturale.",
-      price: 170,
+      name: "Camera king deluxe",
+      description: "camera 31 m2, 1 pat dublu mare",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
+      price: 380,
+      priceList: [
+        { persons: 1, price: 342 },
+        { persons: 2, price: 380 }
+      ],
       image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
       galleryImages: [
         "https://images.unsplash.com/photo-1472396961693-142e6e269027",
         "https://images.unsplash.com/photo-1467987506553-8f3916508521",
         "https://images.unsplash.com/photo-1499916078039-922301b0eb9b"
       ],
-      amenities: ["Pat Queen Size", "Baie Privată", "Elemente Istorice", "Spațiu de Lucru"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică"]
     },
     {
       id: 4,
-      name: "Suita Căsuță",
-      description: "O suită independentă perfectă pentru familii, cu două dormitoare, bucătărie complet echipată și terasă privată.",
-      fullDescription: "Suita Căsuță este alegerea ideală pentru familii sau grupuri mici, oferind 90 mp de spațiu de locuit confortabil. Această suită independentă include două dormitoare spațioase, fiecare cu propriul pat queen size și spațiu de depozitare generos. Bucătăria complet utilată este echipată cu aparate moderne, inclusiv un aragaz, cuptor cu microunde, frigider și ustensile esențiale pentru prepararea meselor. Zona de living are o canapea extensibilă, televizor smart și acces direct la terasa privată mobilată, perfectă pentru mesele în aer liber sau relaxare. Baia familială include atât duș, cât și cadă, iar facilitățile suplimentare pentru copii (pătuț, scaun înalt) sunt disponibile la cerere.",
-      price: 250,
+      name: "Camera dubla cu balcon",
+      description: "35 m2, 1 pat dublu mare",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică Canapea extensibilă",
+      price: 422,
+      priceList: [
+        { persons: 1, price: 342 },
+        { persons: 2, price: 422 },
+        { persons: 3, price: 480 }
+      ],
       image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
       galleryImages: [
         "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
         "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
         "https://images.unsplash.com/photo-1466721591366-2d5fba72006d"
       ],
-      amenities: ["Două Dormitoare", "Bucătărie", "Terasă Privată", "Facilități pentru Familie"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Încălzire", "Uscător de păr", "Cană fierbător", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
     {
       id: 5,
-      name: "Camera Panoramă",
-      description: "Situată la ultimul etaj, această cameră oferă vederi panoramice spectaculoase ale dealurilor înconjurătoare.",
-      fullDescription: "Camera Panoramă este o cameră premium de 40 mp, situată la ultimul etaj al pensiunii. După cum sugerează numele, principalul avantaj al acestei camere este vederea panoramică de 270° asupra dealurilor și văilor. Pereții sunt dotați cu ferestre mari de la podea până la tavan, creând o experiență imersivă cu natura din jur. Camera include un pat queen size de lux, o zonă de relaxare cu două fotolii confortabile și o masă de cafea, precum și un birou spațios cu priză ergonomică. Baia modernă include un duș walk-in cu efect de ploaie și produse de toaletă premium. Un minibar bine aprovizionat și o mașină de cafea espresso completează experiența de lux.",
-      price: 190,
+      name: "Camera dubla cu terasa",
+      description: "45 m2, 1 canapea extensibila si 1 pat dublu mare",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică Canapea extensibilă",
+      price: 442,
+      priceList: [
+        { persons: 1, price: 416 },
+        { persons: 2, price: 442 },
+        { persons: 3, price: 468 },
+        { persons: 4, price: 520 }
+      ],
       image: "https://images.unsplash.com/photo-1491183672482-d0af0e44929d",
       galleryImages: [
         "https://images.unsplash.com/photo-1491183672482-d0af0e44929d",
         "https://images.unsplash.com/photo-1472396961693-142e6e269027",
         "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
       ],
-      amenities: ["Pat Queen Size", "Vedere Panoramică", "Zonă de Lucru", "Mini Bar"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Etaje superioare accesibile doar pe scări", "Hârtie igienică", "Canapea extensibilă"]
     },
     {
       id: 6,
-      name: "Apartamentul Rustic",
-      description: "Un apartament cu două camere decorat în stil tradițional românesc, perfect pentru cei ce doresc mai mult spațiu.",
-      fullDescription: "Apartamentul Rustic oferă 75 mp de spațiu de locuit decorat cu autenticitate în stil tradițional românesc, cu artefacte locale și țesături realizate manual. Designul include un dormitor principal privat cu un pat queen size confortabil și un living spațios cu o canapea extensibilă care poate acomoda doi oaspeți suplimentari. Baia spațioasă include o cadă adâncă ideală pentru relaxare după o zi de explorare. Mobilierul tradițional din lemn masiv este completat de opere de artă locale și covoare țesute manual. În ciuda esteticii rustic, apartamentul oferă toate comoditățile moderne necesare pentru un sejur confortabil, inclusiv internet de mare viteză, televizor smart și aer condiționat.",
-      price: 230,
+      name: "Apartament",
+      description: "80 m2, 1 pat dublu mare, 1 canapea extensibila",
+      fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Ustensile de bucătărie Chicinetă Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Hârtie igienică Canapea extensibilă",
+      price: 451,
+      priceList: [
+        { persons: 1, price: 413 },
+        { persons: 2, price: 451 },
+        { persons: 3, price: 495 },
+        { persons: 4, price: 550 }
+      ],
       image: "https://images.unsplash.com/photo-1467987506553-8f3916508521",
       galleryImages: [
         "https://images.unsplash.com/photo-1467987506553-8f3916508521",
         "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
         "https://images.unsplash.com/photo-1491183672482-d0af0e44929d"
       ],
-      amenities: ["Living Separat", "Dormitor Privat", "Baie Spațioasă", "Mobilier Tradițional"]
+      amenities: ["Toaletă", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "Intrare privată", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Ustensile de bucătărie", "Chicinetă", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Hârtie igienică", "Canapea extensibilă"]
     },
     {
       id: 7,
-      name: "Camera Romantică",
-      description: "Camera noastră cea mai intimă, perfectă pentru cupluri, cu un pat king size și o cadă cu hidromasaj în cameră.",
-      fullDescription: "Camera Romantică este creată special pentru cupluri care caută o evadare intimă. Cu o suprafață de 50 mp, această cameră luxoasă se mândrește cu un pat king size cu baldachin, plasat central pentru impact maxim. Caracteristica principală este cada cu hidromasaj pentru două persoane, poziționată strategic lângă o fereastră mare cu vedere la natură, dar cu intimitate completă. Un șemineu electric adaugă atmosferă romantică în serile răcoroase, iar intrarea privată asigură discreție totală. Iluminatul ambiental poate fi ajustat pentru a crea atmosfera perfectă, iar un sistem audio Bluetooth vă permite să vă bucurați de muzica preferată. O selecție de vinuri locale și șampanie este disponibilă în minibarul premium.",
-      price: 205,
+      name: "Apartament deluxe",
+      description: "110 m2, 1 pat dublu mare in dormitor 1, 1 pat dublu mare in dormitor 2, 1 canapea extensibila",
+      fullDescription: "Cadă cu hidromasaj Toaletă Șemineu Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Hârtie igienică Canapea extensibilă",
+      price: 624,
+      priceList: [
+        { persons: 1, price: 584 },
+        { persons: 2, price: 624 },
+        { persons: 3, price: 672 },
+        { persons: 4, price: 736 },
+        { persons: 5, price: 800 }
+      ],
       image: "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
       galleryImages: [
         "https://images.unsplash.com/photo-1499916078039-922301b0eb9b",
         "https://images.unsplash.com/photo-1466721591366-2d5fba72006d",
         "https://images.unsplash.com/photo-1472396961693-142e6e269027"
       ],
-      amenities: ["Pat King Size", "Cadă cu Hidromasaj", "Șemineu", "Intrare Privată"]
+      amenities: ["Cadă cu hidromasaj", "Toaletă", "Șemineu", "Cadă sau duş", "Pardoseală de lemn sau parchet", "Prosoape", "Lenjerie de pat", "Priză lângă pat", "Pardoseală de gresie/marmură", "Zonă de relaxare", "TV", "Frigider", "Aparat pentru prepararea de ceai/cafea", "Încălzire", "Uscător de păr", "Mobilier de grădină", "Zonă de luat masa în aer liber", "Canale prin cablu", "Garderobă sau dulap", "Zonă de luat masa", "Masă", "Hârtie igienică", "Canapea extensibilă"]
     }
   ];
 
@@ -152,20 +188,10 @@ const Rooms = () => {
                   <div className="flex items-center text-primary font-semibold">
                     <DollarSign className="w-4 h-4 mr-1" />
                     <span>{room.price}</span>
-                    <span className="text-muted-foreground font-normal">/noapte</span>
+                    <span className="text-muted-foreground font-normal"> RON/noapte</span>
                   </div>
                 </div>
                 <p className="text-muted-foreground mb-4">{room.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {room.amenities.map((amenity, index) => (
-                    <span 
-                      key={index} 
-                      className="px-3 py-1 bg-accent text-xs rounded-full"
-                    >
-                      {amenity}
-                    </span>
-                  ))}
-                </div>
               </CardContent>
               <CardFooter className="mt-auto">
                 <Button variant="outline" className="w-full" onClick={() => openRoomDetails(room.id)}>
@@ -185,10 +211,8 @@ const Rooms = () => {
             <>
               <DialogHeader>
                 <DialogTitle className="text-2xl">{getSelectedRoom()?.name}</DialogTitle>
-                <DialogDescription className="flex items-center text-primary font-semibold text-lg mt-2">
-                  <DollarSign className="w-5 h-5 mr-1" />
-                  <span>{getSelectedRoom()?.price}</span>
-                  <span className="text-muted-foreground font-normal">/noapte</span>
+                <DialogDescription className="text-lg mt-2">
+                  {getSelectedRoom()?.description}
                 </DialogDescription>
               </DialogHeader>
               
@@ -206,10 +230,20 @@ const Rooms = () => {
                   ))}
                 </div>
                 
-                {/* Full Description */}
+                {/* Price List */}
                 <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-2">Descriere</h3>
-                  <p className="text-muted-foreground">{getSelectedRoom()?.fullDescription}</p>
+                  <h3 className="text-lg font-semibold mb-2 flex items-center">
+                    <DollarSign className="w-5 h-5 mr-2" />
+                    Prețuri
+                  </h3>
+                  <div className="space-y-2">
+                    {getSelectedRoom()?.priceList.map((price, index) => (
+                      <div key={index} className="flex justify-between items-center border-b pb-2">
+                        <span>{price.persons} {price.persons === 1 ? "persoană" : "persoane"}</span>
+                        <span className="font-semibold">{price.price} RON/noapte</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
                 
                 {/* Amenities */}
@@ -222,7 +256,7 @@ const Rooms = () => {
                     {getSelectedRoom()?.amenities.map((amenity, index) => (
                       <span 
                         key={index} 
-                        className="px-4 py-2 bg-accent text-sm rounded-full"
+                        className="px-3 py-1 bg-accent text-xs rounded-full"
                       >
                         {amenity}
                       </span>
