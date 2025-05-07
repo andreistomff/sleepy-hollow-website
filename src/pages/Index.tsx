@@ -99,7 +99,7 @@ const Index = () => {
                     <th className="p-4 text-left">Ocupare</th>
                     <th className="p-4 text-left flex items-center gap-2">
                       Tarif
-                      <Tooltip>
+                      <Tooltip delayDuration={100}>
                         <TooltipTrigger asChild>
                           <span className="inline-flex cursor-help">
                             <InfoIcon className="h-4 w-4" />
