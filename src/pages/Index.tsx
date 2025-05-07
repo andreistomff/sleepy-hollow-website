@@ -6,7 +6,7 @@ import Rooms from "@/components/Rooms";
 import Amenities from "@/components/Amenities";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { InfoIcon } from "lucide-react";
 
 const Index = () => {
@@ -91,20 +91,25 @@ const Index = () => {
               Găsiți cazarea perfectă pentru șederea dumneavoastră
             </p>
             
-            <Alert className="my-4 border-amber-500/50 bg-amber-50 dark:bg-amber-950/20">
-              <InfoIcon className="h-4 w-4 text-amber-600" />
-              <AlertDescription className="text-amber-600 dark:text-amber-400">
-                Prețurile se pot modifica în funcție de numărul de persoane.
-              </AlertDescription>
-            </Alert>
-            
-            <div className="overflow-x-auto mt-6">
+            <div className="overflow-x-auto mt-12">
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="bg-primary text-primary-foreground">
                     <th className="p-4 text-left">Tip Cameră</th>
                     <th className="p-4 text-left">Ocupare</th>
-                    <th className="p-4 text-left">Tarif</th>
+                    <th className="p-4 text-left flex items-center gap-2">
+                      Tarif
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <span className="inline-flex cursor-help">
+                            <InfoIcon className="h-4 w-4" />
+                          </span>
+                        </TooltipTrigger>
+                        <TooltipContent className="bg-amber-50 text-amber-600 border border-amber-200">
+                          Prețurile se pot modifica în funcție de numărul de persoane.
+                        </TooltipContent>
+                      </Tooltip>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
