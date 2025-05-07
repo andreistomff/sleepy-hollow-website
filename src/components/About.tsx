@@ -14,13 +14,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
           <div className="space-y-4">
             <p className="text-lg">
-            Combinând simplitatea cu luxul și inovația, un sejur la Green Panorama este o invitație  la descoperire, la distracție, la bucuria de a relaxa mintea și trupul într-un ambient select unde serviciile de calitate  și natura se îmbină pentru a va oferi o experiență unică de vacanță. Este alegerea potrivită pentru o excursie de grup, teambuilding, petrecerea unor evenimente de familie, sau pur și simplu pentru o evadare din cotidian. Familiile, cuplurile, prietenii vor descoperi un loc unde te poți simți „ACASA DEPARTE DE CASĂ”.
+            Green Panorama îmbină luxul cu natura, oferind un sejur relaxant și servicii de calitate într-un cadru select — ideal pentru familii, cupluri, prieteni, teambuildinguri sau evenimente speciale. Aici te simți cu adevărat „acasă, departe de casă”.
             </p>
             <p className="text-lg">
-              Locația noastră este perfectă pentru cei care caută liniște, cu trasee pitorești de plimbare, locuri de pescuit în apropiere și grădini frumoase de explorat. Cu toate acestea, suntem convenabil situați la doar 15 minute de centrul orașului, cu acces ușor la atracțiile locale.
+            Green Panorama oferă 22 de locuri de cazare în 4 camere duble, 2 triple cu balcon și 2 apartamente: Family (120 mp – 4 adulți, 2 copii) și Junior (90 mp – 2 adulți, 2 copii), ambele complet echipate pentru confortul oaspeților.
             </p>
             <p className="text-lg">
-              La GreenPanorama, ne mândrim cu ospitalitatea noastră caldă, atenția la detalii și micul nostru dejun delicios preparat în casă, cu ingrediente de proveniență locală.
+            Pentru un sejur complet, vă așteaptă sala multifuncțională (36–44 locuri), grătarul, bucătăria comună, cafeaua gratuită, piscinele, jacuzzi-ul interior și exterior, sauna, sala de masaj, masa de ping-pong și vatra de foc.
             </p>
           </div>
           
@@ -43,7 +43,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Cazare confortabilă</h3>
                   <p className="text-muted-foreground">
-                  Fiecare cameră este personalizată și are stilul, luxul și rafinamentul propriu, fiind dotate cu televizor LCD cu cablu TV, acces internet Wi-Fi gratuit , minibar, coffee maker- selecție de ceaiuri și cafea. Baia este echipată modern cu cabina de duș cu  hidromasaj și obiecte sanitare de calitate, uscător de păr, halate de baie.
+                  Fiecare cameră are un stil propriu, fiind dotată cu TV LCD, Wi-Fi gratuit, minibar, aparat de cafea, baie modernă cu duș hidromasaj, uscător de păr și halate.
                   </p>
                 </div>
               </CardContent>
@@ -55,7 +55,7 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Servicii personalizate</h3>
                   <p className="text-muted-foreground">
-                  Pensiunea noastra poate fi gazda unor evenimente de familie, precum  și a unor evenimente corporate, fie ca este vorba de teambuilding,  sesiuni de lucru, programele de wellbeing  sau orice alta activitate pentru companii, dotarile specifice, experienta și flexibilitatea echipei noastre au ca rezultat final organizarea unui eveniment memorabil.
+                  Pensiunea găzduiește atât evenimente de familie, cât și corporate, precum teambuildinguri, sesiuni de lucru sau programe de wellbeing, oferind dotări adecvate și o echipă flexibilă pentru evenimente memorabile.
                   </p>
                 </div>
               </CardContent>
