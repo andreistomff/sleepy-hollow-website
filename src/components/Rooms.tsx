@@ -1,4 +1,3 @@
-
 import { BedDouble, Calendar, DollarSign, X, Tag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -186,7 +185,6 @@ const Rooms = () => {
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-semibold">{room.name}</h3>
                   <div className="flex items-center text-primary font-semibold">
-                    <DollarSign className="w-4 h-4 mr-1" />
                     <span>{room.price}</span>
                     <span className="text-muted-foreground font-normal"> RON/noapte</span>
                   </div>
