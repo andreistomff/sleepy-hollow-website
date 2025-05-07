@@ -1,3 +1,4 @@
+
 import { BedDouble, Calendar, DollarSign, X, Tag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
@@ -18,7 +19,7 @@ const Rooms = () => {
     {
       id: 1,
       name: "Camera dubla",
-      description: "Camera de 28 m2, cu 1 pat dublu mare, vedere la gradina",
+      description: "Camera de 28 m², cu 1 pat dublu mare, vedere la gradina",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
       price: 380,
       priceList: [
@@ -36,7 +37,7 @@ const Rooms = () => {
     {
       id: 2,
       name: "Camera deluxe",
-      description: "Camera de 30m2, cu 1 pat dublu mare, vedere la gradina",
+      description: "Camera de 30 m², cu 1 pat dublu mare, vedere la gradina",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
       price: 380,
       priceList: [
@@ -54,7 +55,7 @@ const Rooms = () => {
     {
       id: 3,
       name: "Camera king deluxe",
-      description: "camera 31 m2, 1 pat dublu mare",
+      description: "Camera 31 m², 1 pat dublu mare",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică",
       price: 380,
       priceList: [
@@ -72,7 +73,7 @@ const Rooms = () => {
     {
       id: 4,
       name: "Camera dubla cu balcon",
-      description: "35 m2, 1 pat dublu mare",
+      description: "35 m², 1 pat dublu mare",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Încălzire Uscător de păr Cană fierbător Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică Canapea extensibilă",
       price: 422,
       priceList: [
@@ -91,7 +92,7 @@ const Rooms = () => {
     {
       id: 5,
       name: "Camera dubla cu terasa",
-      description: "45 m2, 1 canapea extensibila si 1 pat dublu mare",
+      description: "45 m², 1 canapea extensibila si 1 pat dublu mare",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Etaje superioare accesibile doar pe scări Hârtie igienică Canapea extensibilă",
       price: 442,
       priceList: [
@@ -111,7 +112,7 @@ const Rooms = () => {
     {
       id: 6,
       name: "Apartament",
-      description: "80 m2, 1 pat dublu mare, 1 canapea extensibila",
+      description: "80 m², 1 pat dublu mare, 1 canapea extensibila",
       fullDescription: "Toaletă Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare Intrare privată TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Ustensile de bucătărie Chicinetă Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Hârtie igienică Canapea extensibilă",
       price: 451,
       priceList: [
@@ -131,7 +132,7 @@ const Rooms = () => {
     {
       id: 7,
       name: "Apartament deluxe",
-      description: "110 m2, 1 pat dublu mare in dormitor 1, 1 pat dublu mare in dormitor 2, 1 canapea extensibila",
+      description: "110 m², 1 pat dublu mare in dormitor 1, 1 pat dublu mare in dormitor 2, 1 canapea extensibila",
       fullDescription: "Cadă cu hidromasaj Toaletă Șemineu Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Hârtie igienică Canapea extensibilă",
       price: 624,
       priceList: [
