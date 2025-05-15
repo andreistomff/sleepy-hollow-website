@@ -45,7 +45,7 @@ const Footer = () => {
               <li><Link to="/termeni-rezervare" className="hover:text-white/80 transition-colors">Termeni de Rezervare</Link></li>
               <li><Link to="/politica-anulare" className="hover:text-white/80 transition-colors">Politica de Anulare</Link></li>
               <li><Link to="/politica-confidentialitate" className="hover:text-white/80 transition-colors">Politica de Confidențialitate</Link></li>
-              <li><a href="#" className="hover:text-white/80 transition-colors">Politica pentru Animale</a></li>
+              <li><Link to="/politica-animale" className="hover:text-white/80 transition-colors">Politica pentru Animale</Link></li>
               <li><a href="#" className="hover:text-white/80 transition-colors">Întrebări Frecvente</a></li>
             </ul>
           </div>

@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Terms from "./pages/Terms";
 import CancellationPolicy from "./pages/CancellationPolicy";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PetPolicy from "./pages/PetPolicy";
 import NotFound from "./pages/NotFound";
 
 // ScrollToTop component to handle scrolling to top on route changes
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/termeni-rezervare" element={<Terms />} />
           <Route path="/politica-anulare" element={<CancellationPolicy />} />
           <Route path="/politica-confidentialitate" element={<PrivacyPolicy />} />
+          <Route path="/politica-animale" element={<PetPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
