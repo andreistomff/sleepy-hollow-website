@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -175,9 +174,9 @@ const Index = () => {
       </main>
       <Footer />
 
-      {/* Gallery Dialog */}
+      {/* Gallery Dialog - Using the hideCloseButton prop */}
       <Dialog open={galleryOpen} onOpenChange={setGalleryOpen}>
-        <DialogContent className="max-w-5xl max-h-[90vh] p-0 bg-transparent border-none overflow-hidden">
+        <DialogContent className="max-w-5xl max-h-[90vh] p-0 bg-transparent border-none overflow-hidden" hideCloseButton>
           <div className="relative bg-background/95 backdrop-blur-sm rounded-lg overflow-hidden">
             <DialogClose className="absolute right-4 top-4 z-50 bg-background/80 rounded-full p-2 hover:bg-background/90 transition-colors">
               <X className="h-5 w-5" />
