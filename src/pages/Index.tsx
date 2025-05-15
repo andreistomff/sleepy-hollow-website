@@ -127,12 +127,10 @@ const Index = () => {
             <div className="mt-8 bg-accent/50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-4 font-serif">Informații Suplimentare</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Tarifele includ micul dejun pentru toți oaspeții.</li>
-                <li>Copiii sub 5 ani stau gratuit când folosesc paturile existente.</li>
-                <li>Paturi suplimentare sunt disponibile pentru 25€ pe noapte.</li>
-                <li>Tarife speciale disponibile pentru șederi mai lungi de o săptămână.</li>
-                <li>10% reducere pentru oaspeții care revin.</li>
-                <li>Toate tarifele sunt supuse TVA de 8,5%.</li>
+                <li>Copiii de toate vârstele sunt bineveniți.</li>
+                <li>Pătuțuri pentru copii și paturi suplimentare nu sunt disponibile la această proprietate.</li>
+                <li>Animalele de companie sunt acceptate. Nu se percep taxe suplimentare.</li>
+                <li>Fumatul in cameră este interzis.</li>
               </ul>
             </div>
           </div>
