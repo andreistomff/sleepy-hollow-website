@@ -1,5 +1,5 @@
 
-import { Phone } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,7 +10,14 @@ const Footer = () => {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4 font-serif">GreenPanorama</h3>
+            <div className="flex items-center space-x-2 mb-4">
+              <img 
+                src="/lovable-uploads/ba0cd030-8a6f-4322-8455-72792fbd6777-white.png" 
+                alt="GreenPanorama Logo" 
+                className="h-8 w-8 invert" 
+              />
+              <h3 className="text-xl font-semibold font-serif">GreenPanorama</h3>
+            </div>
             <p className="mb-4">
               O pensiune fermecătoare care oferă confort, relaxare și experiențe de neuitat.
             </p>
