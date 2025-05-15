@@ -8,6 +8,18 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { InfoIcon } from "lucide-react";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogClose } from "@/components/ui/dialog";
+import { 
+  Carousel, 
+  CarouselContent, 
+  CarouselItem, 
+  CarouselNext, 
+  CarouselPrevious 
+} from "@/components/ui/carousel";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Button } from "@/components/ui/button";
+import { X } from "lucide-react";
 
 const Index = () => {
   // Room data that matches the data from Rooms.tsx
@@ -56,6 +68,24 @@ const Index = () => {
     }
   ];
 
+  const [galleryOpen, setGalleryOpen] = useState(false);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  
+  const galleryImages = [
+    { path: '/images/image1.jpeg', alt: 'Imagine galerie 1' },
+    { path: '/images/image2.jpeg', alt: 'Imagine galerie 2' },
+    { path: '/images/image3.jpeg', alt: 'Imagine galerie 3' },
+    { path: '/images/image4.jpeg', alt: 'Imagine galerie 4' },
+    { path: '/images/image5.jpeg', alt: 'Imagine galerie 5' },
+    { path: '/images/image6.jpeg', alt: 'Imagine galerie 6' },
+    { path: '/images/image7.jpeg', alt: 'Imagine galerie 7' },
+  ];
+
+  const openGallery = (index: number) => {
+    setSelectedImageIndex(index);
+    setGalleryOpen(true);
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -71,11 +101,15 @@ const Index = () => {
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
-              {[0, 1, 2, 3, 4, 5, 6].map((index) => (
-                <div key={index} className="overflow-hidden rounded-lg aspect-square hover:shadow-lg transition-all">
+              {galleryImages.map((image, index) => (
+                <div 
+                  key={index} 
+                  className="overflow-hidden rounded-lg aspect-square hover:shadow-lg transition-all cursor-pointer"
+                  onClick={() => openGallery(index)}
+                >
                   <img 
-                    src={`images/image${index + 1}.jpeg`}
-                    alt={`Imagine galerie ${index}`}
+                    src={image.path}
+                    alt={image.alt}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -140,6 +174,59 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+
+      {/* Gallery Dialog */}
+      <Dialog open={galleryOpen} onOpenChange={setGalleryOpen}>
+        <DialogContent className="max-w-5xl max-h-[90vh] p-0 bg-transparent border-none overflow-hidden">
+          <div className="relative bg-background/95 backdrop-blur-sm rounded-lg overflow-hidden">
+            <DialogClose className="absolute right-4 top-4 z-50 bg-background/80 rounded-full p-2 hover:bg-background/90 transition-colors">
+              <X className="h-5 w-5" />
+            </DialogClose>
+            
+            <Carousel 
+              className="w-full max-h-[80vh]"
+              opts={{
+                loop: true,
+                startIndex: selectedImageIndex,
+              }}
+            >
+              <CarouselContent>
+                {galleryImages.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <div className="flex items-center justify-center p-2 h-[80vh]">
+                      <img 
+                        src={image.path} 
+                        alt={image.alt}
+                        className="max-h-full max-w-full object-contain rounded-lg"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="left-4" />
+              <CarouselNext className="right-4" />
+            </Carousel>
+            
+            <ScrollArea className="w-full h-20 bg-background/80">
+              <div className="flex p-2 gap-2">
+                {galleryImages.map((image, index) => (
+                  <div 
+                    key={index}
+                    className={`h-16 w-16 shrink-0 rounded-md overflow-hidden cursor-pointer border-2 ${selectedImageIndex === index ? 'border-primary' : 'border-transparent'}`}
+                    onClick={() => setSelectedImageIndex(index)}
+                  >
+                    <img 
+                      src={image.path} 
+                      alt={image.alt}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                ))}
+              </div>
+            </ScrollArea>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
