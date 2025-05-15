@@ -58,7 +58,8 @@ const Footer = () => {
               </div>
               <address className="not-italic">
                 DN64 70,<br />
-                Băile Olănești, 245306
+                Băile Olănești, 
+                cod postal 245306
               </address>
             </div>
           </div>
