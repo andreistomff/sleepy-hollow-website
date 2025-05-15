@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span>(123) 456-7890</span>
+                <span>0744 530 505</span>
               </div>
               <address className="not-italic">
                 123 Strada Pădurii,<br />

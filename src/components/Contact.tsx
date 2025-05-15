@@ -1,3 +1,4 @@
+
 import { Phone, Mail, MapPin, Navigation, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -63,7 +64,7 @@ const Contact = () => {
                   <Phone className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Telefon</p>
-                    <p className="text-muted-foreground">(123) 456-7890</p>
+                    <p className="text-muted-foreground">0744 530 505</p>
                   </div>
                 </div>
                 <div className="flex items-start">
