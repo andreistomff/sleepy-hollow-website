@@ -75,7 +75,6 @@ const PrivacyPolicy = () => {
               <h3 className="text-xl font-semibold mb-4 font-serif">6. Date de contact pentru protecția datelor</h3>
               <p>Pentru întrebări sau solicitări privind datele personale, ne puteți contacta la:</p>
               <p className="mt-2">
-                <strong>Email:</strong> contact@greenpanorama.ro<br />
                 <strong>Telefon:</strong> 0744 530 505
               </p>
             </section>
