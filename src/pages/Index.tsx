@@ -71,7 +71,7 @@ const Index = () => {
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
-              {[1, 2, 3, 4, 5, 6, 7].map((index) => (
+              {[0, 1, 2, 3, 4, 5, 6].map((index) => (
                 <div key={index} className="overflow-hidden rounded-lg aspect-square hover:shadow-lg transition-all">
                   <img 
                     src={`images/image${index + 1}.jpeg`}
