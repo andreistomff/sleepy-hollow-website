@@ -1,5 +1,6 @@
 
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -29,7 +30,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 font-serif">Link-uri Rapide</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white/80 transition-colors">Acasă</a></li>
+              <li><a href="/" className="hover:text-white/80 transition-colors">Acasă</a></li>
               <li><a href="#about" className="hover:text-white/80 transition-colors">Despre Noi</a></li>
               <li><a href="#rooms" className="hover:text-white/80 transition-colors">Camerele Noastre</a></li>
               <li><a href="#gallery" className="hover:text-white/80 transition-colors">Galerie</a></li>
@@ -41,7 +42,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 font-serif">Politici</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white/80 transition-colors">Termeni de Rezervare</a></li>
+              <li><Link to="/termeni-rezervare" className="hover:text-white/80 transition-colors">Termeni de Rezervare</Link></li>
               <li><a href="#" className="hover:text-white/80 transition-colors">Politica de Anulare</a></li>
               <li><a href="#" className="hover:text-white/80 transition-colors">Politica de Confidențialitate</a></li>
               <li><a href="#" className="hover:text-white/80 transition-colors">Politica pentru Animale</a></li>
