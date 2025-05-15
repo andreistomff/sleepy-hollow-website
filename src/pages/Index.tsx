@@ -71,10 +71,10 @@ const Index = () => {
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
-              {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
+              {[1, 2, 3, 4, 5, 6, 7].map((index) => (
                 <div key={index} className="overflow-hidden rounded-lg aspect-square hover:shadow-lg transition-all">
                   <img 
-                    src={`https://images.unsplash.com/photo-${index % 3 === 0 ? '1482938289607-e9573fc25ebb' : index % 2 === 0 ? '1472396961693-142e6e269027' : '1466721591366-2d5fba72006d'}`}
+                    src={`images/image${index + 1}.jpeg`}
                     alt={`Imagine galerie ${index}`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
