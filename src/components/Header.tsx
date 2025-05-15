@@ -32,7 +32,12 @@ const Header = () => {
       isScrolled ? "bg-white/95 backdrop-blur-sm shadow-sm py-2" : "bg-transparent py-4"
     )}>
       <div className="container-custom flex items-center justify-between">
-        <a href="/" className="flex items-center">
+        <a href="/" className="flex items-center space-x-2">
+          <img 
+            src="/lovable-uploads/9e0b5806-1cf7-4da9-953a-2239c6370ef5.png" 
+            alt="GreenPanorama Logo" 
+            className="h-8 w-8" 
+          />
           <h1 className="text-xl lg:text-2xl font-serif font-bold text-primary">
             GreenPanorama
           </h1>
