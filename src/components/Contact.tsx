@@ -71,7 +71,7 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-primary mt-1 mr-3" />
                   <div>
                     <p className="font-medium">Adresă</p>
-                    <p className="text-muted-foreground">123 Strada Pădurii, GreenPanorama, Brașov 123456</p>
+                    <p className="text-muted-foreground">DN64 70, Băile Olănești, 245306</p>
                   </div>
                 </div>
               </div>
@@ -82,11 +82,11 @@ const Contact = () => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className="font-medium">Check-in:</span>
-                  <span>15:00 - 20:00</span>
+                  <span>14:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Check-out:</span>
-                  <span>11:00</span>
+                  <span>10:30 - 11:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Program Recepție:</span>
