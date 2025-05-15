@@ -3,10 +3,10 @@ import { CheckCircle } from "lucide-react";
 
 const Amenities = () => {
   const amenities = [
-    { category: "Confort", items: ["WiFi Gratuit", "Aer Condiționat", "Încălzire", "Curățenie Zilnică", "Lenjerie Premium"] },
-    { category: "Mâncare & Băutură", items: ["Mic Dejun Făcut în Casă", "Facilități pentru Ceai/Cafea", "Opțiuni Dietetice Disponibile", "Bar cu Autoservire", "Zonă de Luat Masa în Aer Liber"] },
+    { category: "Confort", items: ["WiFi Gratuit", "Aer Condiționat", "Încălzire", "Lenjerie Premium"] },
+    { category: "Mâncare & Băutură", items: ["Facilități pentru Ceai/Cafea", "Zonă de Luat Masa în Aer Liber"] },
     { category: "Exterior", items: ["Grădină", "Terasă", "Foc de Tabără", "Facilități pentru Grătar", "Parcare"] },
-    { category: "Activități", items: ["Jocuri de Societate", "Bibliotecă", "Plimbări Ghidate în Natură", "Închiriere Biciclete", "Tururi Locale"] }
+    { category: "Activități", items: ["Jocuri de Societate", "Ping Pong"] }
   ];
 
   return (
