@@ -12,9 +12,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/lovable-uploads/ba0cd030-8a6f-4322-8455-72792fbd6777-white.png" 
+                src="/lovable-uploads/7fae8f2a-fdc9-47fc-85cd-525dfefa71ab.png" 
                 alt="GreenPanorama Logo" 
-                className="h-8 w-8 invert" 
+                className="h-8 w-8" 
               />
               <h3 className="text-xl font-semibold font-serif">GreenPanorama</h3>
             </div>
