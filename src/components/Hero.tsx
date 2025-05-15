@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb" 
+          src="/lovable-uploads/b0f0d474-0ff4-4c67-a651-479bee41d8b4.png" 
           alt="Pensiunea GreenPanorama" 
           className="w-full h-full object-cover"
         />
