@@ -34,7 +34,7 @@ const Header = () => {
       <div className="container-custom flex items-center justify-between">
         <a href="/" className="flex items-center space-x-2">
           <img 
-            src="/lovable-uploads/9e0b5806-1cf7-4da9-953a-2239c6370ef5.png" 
+            src="/lovable-uploads/ba0cd030-8a6f-4322-8455-72792fbd6777.png" 
             alt="GreenPanorama Logo" 
             className="h-8 w-8" 
           />
