@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Navigation, ExternalLink } from "lucide-react";
+import { Phone, MapPin, Navigation, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -65,13 +65,6 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Telefon</p>
                     <p className="text-muted-foreground">0744 530 505</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Mail className="w-5 h-5 text-primary mt-1 mr-3" />
-                  <div>
-                    <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">info@greenpanorama.ro</p>
                   </div>
                 </div>
                 <div className="flex items-start">

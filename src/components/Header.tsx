@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { Menu, Phone, Mail } from "lucide-react";
+import { Menu, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -107,10 +107,6 @@ const Header = () => {
             <div className="flex items-center space-x-2 py-2">
               <Phone className="w-4 h-4" />
               <a href="tel:0744530505" className="text-base text-foreground">0744 530 505</a>
-            </div>
-            <div className="flex items-center space-x-2 py-2">
-              <Mail className="w-4 h-4" />
-              <a href="mailto:info@greenpanorama.ro" className="text-base text-foreground">info@greenpanorama.ro</a>
             </div>
             <Button className="btn-primary w-full" onClick={scrollToContact}>Rezervă Acum</Button>
           </div>
