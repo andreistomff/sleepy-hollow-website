@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -63,7 +62,8 @@ const Footer = () => {
         
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p>&copy; {currentYear} Pensiunea GreenPanorama. Toate drepturile rezervate.</p>
-          <p className="text-sm mt-2 text-primary-foreground/80">Website powered by Codemelt.</p>
+          <p className="text-sm mt-2 text-primary-foreground/80">Website powered by <a href="https://codemelt.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Codemelt</a>.</p>
+          <p className="text-sm mt-1 text-primary-foreground/80">Website made by A. Stomff.</p>
         </div>
       </div>
     </footer>
