@@ -33,13 +33,13 @@ const Header = () => {
     )}>
       <div className="container-custom flex items-center justify-between">
         <a href="/" className="flex items-center">
-          <h1 className="text-xl md:text-2xl font-serif font-bold text-primary">
+          <h1 className="text-xl lg:text-2xl font-serif font-bold text-primary">
             GreenPanorama
           </h1>
         </a>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden lg:flex items-center space-x-8">
           <a href="#about" className="text-foreground hover:text-primary transition-colors">Despre</a>
           <a href="#rooms" className="text-foreground hover:text-primary transition-colors">Camere</a>
           <a href="#gallery" className="text-foreground hover:text-primary transition-colors">Galerie</a>
@@ -47,7 +47,7 @@ const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
 
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <a href="tel:+12345678" className="flex items-center text-muted-foreground hover:text-primary transition-colors">
             <Phone className="w-4 h-4 mr-2" />
             <span className="text-base">(123) 456-7890</span>
@@ -57,7 +57,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-foreground p-2" 
+          className="lg:hidden text-foreground p-2" 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Comută meniul"
         >
@@ -67,7 +67,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <nav className="md:hidden bg-white border-t py-4 animate-fade-in">
+        <nav className="lg:hidden bg-white border-t py-4 animate-fade-in">
           <div className="container-custom flex flex-col space-y-4">
             <a 
               href="#about" 
