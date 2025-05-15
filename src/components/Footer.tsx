@@ -57,8 +57,8 @@ const Footer = () => {
                 <span>0744 530 505</span>
               </div>
               <address className="not-italic">
-                123 Strada Pădurii,<br />
-                GreenPanorama, Brașov 123456
+                DN64 70,<br />
+                Băile Olănești, 245306
               </address>
             </div>
           </div>
