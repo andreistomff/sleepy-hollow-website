@@ -15,7 +15,7 @@ const Hero = () => {
       
       <div className="container-custom relative z-10 text-white text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-          Bine ai venit la GreenPanorama!
+          Pensiunea GreenPanorama Băile Olănești
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Descoperă un loc unde te simți acasă, departe de casă.

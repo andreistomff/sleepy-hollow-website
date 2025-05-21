@@ -6,15 +6,15 @@ const About = () => {
   return (
     <section id="about" className="section bg-secondary/50">
       <div className="container-custom">
-        <h2 className="section-title">Despre GreenPanorama</h2>
+        <h2 className="section-title">Despre Pensiunea GreenPanorama</h2>
         <p className="section-subtitle">
-          Un refugiu fermecător la țară, ascuns în inima naturii
+          Un refugiu fermecător în Băile Olănești, ascuns în inima naturii
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 items-center mt-12">
           <div className="space-y-4">
             <p className="text-lg">
-            Green Panorama îmbină luxul cu natura, oferind un sejur relaxant și servicii de calitate într-un cadru select — ideal pentru familii, cupluri, prieteni, teambuildinguri sau evenimente speciale. Aici te simți cu adevărat „acasă, departe de casă”.
+            Green Panorama îmbină luxul cu natura, oferind un sejur relaxant și servicii de calitate într-un cadru select — ideal pentru familii, cupluri, prieteni, teambuildinguri sau evenimente speciale. Aici te simți cu adevărat „acasă, departe de casă".
             </p>
             <p className="text-lg">
             Green Panorama oferă 22 de locuri de cazare în 4 camere duble, 2 triple cu balcon și 2 apartamente: Family (120 mp – 4 adulți, 2 copii) și Junior (90 mp – 2 adulți, 2 copii), ambele complet echipate pentru confortul oaspeților.

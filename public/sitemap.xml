@@ -1,0 +1,37 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage (priority 1.0, most important) -->
+  <url>
+    <loc>https://greenpanorama.ro/</loc>
+    <lastmod>2025-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Policy pages (lower priority) -->
+  <url>
+    <loc>https://greenpanorama.ro/termeni-rezervare</loc>
+    <lastmod>2025-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://greenpanorama.ro/politica-anulare</loc>
+    <lastmod>2025-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://greenpanorama.ro/politica-confidentialitate</loc>
+    <lastmod>2025-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://greenpanorama.ro/politica-animale</loc>
+    <lastmod>2025-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
