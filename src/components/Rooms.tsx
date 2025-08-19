@@ -130,7 +130,7 @@ const Rooms = () => {
     },
     {
       id: 7,
-      name: "Apartament deluxe",
+      name: "Apartament Lux family - Avangarda",
       description: "110 m², 1 pat dublu mare in dormitor 1, 1 pat dublu mare in dormitor 2, 1 canapea extensibila",
       fullDescription: "Cadă cu hidromasaj Toaletă Șemineu Cadă sau duş Pardoseală de lemn sau parchet Prosoape Lenjerie de pat Priză lângă pat Pardoseală de gresie/marmură Zonă de relaxare TV Frigider Aparat pentru prepararea de ceai/cafea Încălzire Uscător de păr Mobilier de grădină Zonă de luat masa în aer liber Canale prin cablu Garderobă sau dulap Zonă de luat masa Masă Hârtie igienică Canapea extensibilă",
       price: 800,
