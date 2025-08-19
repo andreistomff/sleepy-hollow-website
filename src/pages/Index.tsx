@@ -24,46 +24,46 @@ const Index = () => {
   // Room data that matches the data from Rooms.tsx
   const roomPrices = [
     {
-      name: "Camera dubla",
-      displayName: "Cameră dublă",
-      occupancy: "2 Adulți",
-      price: 380
+      name: "Camera Stendhal",
+      displayName: "Cameră Stendhal",
+      occupancy: "1-2 Adulți",
+      price: 450
     },
     {
       name: "Camera deluxe",
-      displayName: "Cameră deluxe",
-      occupancy: "2 Adulți",
-      price: 380
+      displayName: "Cameră Tia Peltz",
+      occupancy: "1-2 Adulți",
+      price: 450
     },
     {
-      name: "Camera king deluxe",
-      displayName: "Cameră king deluxe",
-      occupancy: "2 Adulți",
-      price: 380
+      name: "Camera Renaissance",
+      displayName: "Cameră Renaissance",
+      occupancy: "1-2 Adulți",
+      price: 450
     },
     {
-      name: "Camera dubla cu balcon",
-      displayName: "Cameră dublă cu balcon",
+      name: "Camera Symphony in Blue",
+      displayName: "Cameră Symphony in Blue",
       occupancy: "2-3 Adulți",
-      price: 422
+      price: 480
     },
     {
       name: "Camera dubla cu terasa",
       displayName: "Cameră dublă cu terasă",
       occupancy: "2-4 Adulți",
-      price: 442
+      price: 550
     },
     {
-      name: "Apartament",
-      displayName: "Apartament",
-      occupancy: "2-4 Adulți",
-      price: 451
+      name: "Apartament Junior Green",
+      displayName: "Apartament Junior Green",
+      occupancy: "1-4 Adulți",
+      price: 600
     },
     {
-      name: "Apartament deluxe",
-      displayName: "Apartament deluxe",
-      occupancy: "2-5 Adulți",
-      price: 624
+      name: "Apartament Lux Family - Avangada",
+      displayName: "Apartament Lux Family - Avangada",
+      occupancy: "1-5 Adulți",
+      price: 800
     }
   ];
 
